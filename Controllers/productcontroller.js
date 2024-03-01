@@ -7,7 +7,8 @@ ProductRouter.post('/createproduct', async (req,res) => {
             Name: req.body.Name,
             Category: req.body.Category,
             Price: req.body.Price,
-            Stock: req.body.Stock
+            Stock: req.body.Stock,
+            image : req.body.image 
         })
         const result = await item.save()
         res.json("Success")

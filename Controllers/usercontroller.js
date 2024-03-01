@@ -22,6 +22,7 @@ UserRouter.post("/createuser", async (req, res) => {
       }
     } catch (err) {
       res.json("Error Occured");
+      console.log(err);
     }
 });
 
@@ -81,7 +82,7 @@ UserRouter.post('/forgot-password', (req,res) => {
       service: 'gmail',
       auth: {
         user: 'kannansrinivasanrs@gmail.com',
-        pass: 'fhjjitrkvkzrumjr'
+        pass: 'hmge naes wrwi zgmn'
       }
     });
     const link = `https://main--dulcet-otter-4e9c91.netlify.app/reset/${User._id}/${token}`

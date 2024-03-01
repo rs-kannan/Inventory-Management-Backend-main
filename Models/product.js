@@ -12,6 +12,9 @@ const ProductSchema = new mongoose.Schema({
     },
     Stock:{
         type: String,
+    },
+    image:{
+        type:String
     }
 },{
     timestamps: true

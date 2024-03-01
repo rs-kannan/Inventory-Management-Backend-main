@@ -81,7 +81,7 @@ AdminRouter.post('/forgot-password', (req,res) => {
       service: 'gmail',
       auth: {
         user: 'kannansrinivasanrs@gmail.com',
-        pass: 'fhjjitrkvkzrumjr'
+        pass: 'hmge naes wrwi zgmn'
       }
     });
     const link = `http://localhost:3000/resetpassword/${admin._id}/${token}`
